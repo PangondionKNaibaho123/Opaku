@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "893074171251",
+    "project_id": "opaku-93d92",
+    "storage_bucket": "opaku-93d92.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:893074171251:android:4cd7edfb10bd5b211a1106",
+        "android_client_info": {
+          "package_name": "com.dionkn.opaku"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "893074171251-28sq3r40uhkdgb4mbk33og0a9tlt8cp8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dionkn.opaku",
+            "certificate_hash": "16594b79581e432162a989fc41e4b1c8e918920f"
+          }
+        },
+        {
+          "client_id": "893074171251-mtjkko0rdeb62phgut48i93fdkatr1oa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsglxJZiRgpQ77Gd53pAes4Yu1C6T6U88"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "893074171251-mtjkko0rdeb62phgut48i93fdkatr1oa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
