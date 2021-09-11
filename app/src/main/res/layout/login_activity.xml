@@ -16,7 +16,7 @@
         android:layout_marginHorizontal="120dp"/>
 
     <EditText
-        android:id="@+id/edttext_email"
+        android:id="@+id/et_email_login"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:padding="10dp"
@@ -27,7 +27,7 @@
         android:inputType="textEmailAddress"/>
 
     <EditText
-        android:id="@+id/edttext_password"
+        android:id="@+id/et_pass_login"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:padding="10dp"

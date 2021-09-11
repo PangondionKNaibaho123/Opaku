@@ -1,9 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RegisterActivity">
+    tools:context=".RegisterActivity"
+    android:orientation="vertical">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:id="@+id/iv_register1"
+        android:layout_height="150dp"
+        android:layout_width="150dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/opaku_text"
+        />
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:textSize="18.5sp"
+        android:text="@string/register_persuation"/>
+
+    <EditText
+        android:id="@+id/et_email_register"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext1_drawable"
+        android:hint="email"
+        android:inputType="textEmailAddress"/>
+    <EditText
+        android:id="@+id/et_pass_register"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext1_drawable"
+        android:hint="password"
+        android:inputType="textPassword"/>
+    <EditText
+        android:id="@+id/et_nl_register"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext1_drawable"
+        android:hint="nama lengkap"
+        android:inputType="text"/>
+    <EditText
+        android:id="@+id/et_np_register"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext1_drawable"
+        android:hint="nomor hp"
+        android:inputType="text"/>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="35dp"
+        android:layout_marginHorizontal="50dp">
+
+        <Button
+            android:id="@+id/butback_register"
+            android:layout_height="wrap_content"
+            android:layout_width="120dp"
+            android:text="back"
+            />
+        <Button
+            android:id="@+id/butreg_register"
+            android:layout_height="wrap_content"
+            android:layout_width="120dp"
+            android:layout_marginLeft="50dp"
+            android:text="Register"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

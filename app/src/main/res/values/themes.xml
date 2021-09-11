@@ -18,5 +18,9 @@
         <item name="colorPrimary">@color/white</item>>
     </style>
 
+    <style name="backButtonstyle">
+        <item name="colorAccent">@color/backbutton</item>>
+    </style>
+
 
 </resources>

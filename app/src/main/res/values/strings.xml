@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Opaku</string>
     <string name="perintah_login">Silahkan masuk atau daftar terlebih dahulu jika belum memiliki akun</string>
+    <string name="register_persuation">Daftar akunmu untuk menjelajahi Opaku sesukamu</string>
 </resources>
