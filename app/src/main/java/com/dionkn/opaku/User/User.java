@@ -10,18 +10,21 @@ public class User implements Serializable {
     public String nama_lengkap;
     public String phone_number;
     public int jenis_user;
+    public String userid;
     public String alamat;
+
 
     public User(){
 
     }
 
-    public User(String email_user, String password, String nama_lengkap,String phone_number,  int jenis_user, String alamat){
+    public User(String email_user, String password, String nama_lengkap,String phone_number,  int jenis_user,String userid, String alamat){
         this.email_user = email_user;
         this.password = password;
         this.nama_lengkap = nama_lengkap;
         this.phone_number = phone_number;
         this.jenis_user = jenis_user;
+        this.userid = userid;
         this.alamat = alamat;
     }
 
@@ -72,5 +75,14 @@ public class User implements Serializable {
     public void setAlamat(String alamat) {
         this.alamat = alamat;
     }
+
+    public String getUserid() {
+        return userid;
+    }
+
+    public void setUserid(String userid) {
+        this.userid = userid;
+    }
+
 
 }
